@@ -12,7 +12,7 @@ from nn.HiddenLayer import HiddenLayer
 from nn.BiasLayer import BiasLayer
 from nn.DropoutLayer import DropoutLayer
 from nn.ActivationLayer import ActivationLayer
-from AdamTrainer import AdamTrainer
+from nn.AdamTrainer import AdamTrainer
 
 rng = np.random.RandomState(23456)
 
